@@ -26,7 +26,7 @@ its own fast compact format for storing files.
 %description -l pl
 Scid (od "Shane's Chess Information Database" - bazy danych informacji
 szachowych Shane'a) to wolnodostêpna aplikacja szachowej bazy danych
-dla systemów oparacyjnych Unix oraz Microsoft Windows.
+dla systemów operacyjnych Unix oraz Microsoft Windows.
 
 Scid konwertuje do i z formatu PGN (Portable Game Notation - przeno¶na
 notacja gry), który jest standardem wymiany tekstowych informacji
