@@ -5,9 +5,9 @@ Version:	3.6.1
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
-Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/scid/%{name}-%{version}.tar.gz
 # Source0-md5:	3c9483a7990a2629a35a787c1c29eee0
-URL:		http://scid.sourceforge.net/index.html
+URL:		http://scid.sourceforge.net/
 BuildRequires:	libstdc++-devel
 BuildRequires:	perl-base
 BuildRequires:	tcl-devel
