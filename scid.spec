@@ -9,6 +9,7 @@ Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	0748b222ec1c06a5a1764e6515e04e70
 URL:		http://scid.sourceforge.net/index.html
 BuildRequires:	libstdc++-devel
+BuildRequires:	perl-base
 BuildRequires:	tcl-devel
 BuildRequires:	tk-devel
 BuildRequires:	zlib-devel
@@ -34,6 +35,8 @@ plików.
 
 %prep
 %setup -q
+
+%{__perl} -pi -e 's@/usr/X11R6/lib@/usr/X11R6/%{_lib}@' configure
 
 %build
 # it's not autoconf configure
