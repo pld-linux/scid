@@ -2,7 +2,7 @@ Summary:	Chess database
 Summary(pl):	Szachowa baza danych
 Name:		scid
 Version:	3.5
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
