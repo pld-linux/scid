@@ -1,5 +1,5 @@
 Summary:	Chess database
-Summary(pl.UTF-8):   Szachowa baza danych
+Summary(pl.UTF-8):	Szachowa baza danych
 Name:		scid
 Version:	3.6.1
 Release:	1
